@@ -1,0 +1,85 @@
+.popular-heading{
+    margin-left: 32vw;
+    /* border-bottom: 4px solid black;
+    border-collapse: separate;
+     */
+     color: black;
+}
+.popular-heading h3{
+    font-size: 3.5vw;
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: -1px;
+     font-weight: 500;
+}
+.popular-heading hr{
+
+    width: 15vw;  
+   background-color: black;
+    margin-left: 9vw;
+   border-width: 4px;
+   border-radius: 5px;
+   margin-top: 0px;
+   margin-bottom: 3.5vw;
+}
+.popular-item{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+.col-md-3 p{
+    margin-top: 0.7vw;
+    letter-spacing: -1px;
+   font-weight: 600;
+    font-size: 1vw;
+}
+.price-section{
+    display: flex;
+     margin-top: -1vw;
+}
+.new-price{
+    margin-right: 1vw;
+   
+  
+}
+.new-price p{
+    font-weight:bold;
+    font-size: 1vw;
+}
+.old-price p{
+   color: gray;
+    font-size: 1vw;
+}
+.col-md-3:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+@media(max-width:767px){
+
+    .popular-heading{
+     margin-left: 43vw;
+     padding: 0vw;
+    }
+
+    .popular-item .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    }
+    .popular-heading h3{
+        margin-left: -18vw;
+    }
+    .popular-heading hr{
+        margin-left: -8vw;
+    }
+    .col-md-3 p{
+        width: 30vw;
+    }
+    .price-section .old-price{
+        margin-left:-27vw;
+    }
+    .popular-item{
+       max-width: 81%;
+     
+    }
+    
+}

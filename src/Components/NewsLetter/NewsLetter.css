@@ -1,0 +1,76 @@
+.emailId{
+    margin-top: 150px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    background: linear-gradient( rgb(245, 214, 243)60px,white);
+    margin-left: 7vw;
+}
+.email-heading{
+    text-align: center;
+  position: relative;
+  top: 50px;
+}
+.email-heading h3{
+    font-size: 4.4vw;
+    margin-bottom: 2.5vw;
+    letter-spacing: -1px;
+}
+.email-heading p{
+    margin-top: -1vw;
+    letter-spacing: -1px;
+    font-weight: 500;
+    font-size: 2vw;
+  
+}
+.email-box{
+    margin-top: 7.8vw;
+    text-align: center;
+}
+.email-box input{
+    width: 380px;
+    height: 7vh;
+    border-radius: 25px;
+    border: 1px solid gray;
+    font-size: 15px;
+    margin-left: 10px;
+ text-align: unset;
+ margin-bottom: 2vw;
+}
+.email-box button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 7vh;
+    border-radius: 25px;
+    position: relative;
+    left: -3.3vw;
+    margin-top: -0.5vw;
+}
+.email-box button:hover{
+    background-color: black;
+   color: white;
+    transform:scale(1.01);
+}
+@media(max-width:767px){
+    
+    .emailId{
+       margin-left: 0vw;
+        width:83vw;
+    }
+    .email-box{
+        margin-top: 10vw;
+    }
+    .email-box input{
+        width: 290px;
+        height: 6vh;
+    }
+    .email-box button{
+        font-size: 2vw;
+        width: 120px;
+        margin-left: -1.2vw;
+        margin-top: -0.5vw;
+        height: 6vh;
+    }
+}

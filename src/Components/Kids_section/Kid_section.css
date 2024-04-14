@@ -1,0 +1,185 @@
+.kids-banner img{
+    width: 20vw;
+    height: 42vh;
+    margin-left: 59vw;
+   
+}
+.kids-section{
+   width: 92vw;
+   height: 300px;
+   margin-top: 1.5vw;
+   margin-left: 2.9vw;
+    background:linear-gradient(to right bottom,rgb(247, 178, 158)5px,white);
+    padding: 2vh;
+}
+.kids-section h3{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color:rgb(241, 121, 88) ;
+    margin-top: -25vw;
+    margin-left: 4vw;
+}
+.kids-section p{
+    margin-top: -5px;
+    font-size: 25px;
+    margin-left: 4vw;
+    font-weight: 600;
+}
+.kids-section p span{
+    color:rgb(241, 121, 88) ;
+}
+.kids-section .btn2{
+    width:16vw;
+    height: 6vh;
+   background-color:rgb(241, 121, 88) ;
+   color: white;
+   border-radius: 30px;
+   margin-left: 4vw;
+   margin-top: 10px;
+}
+.showing-products{
+    width: 100%;
+   display: flex;
+    margin-top: 30px;
+   position: relative;
+    left: 2.8vw;
+    font-weight: 500;
+}
+.showing-products .product-sort{
+    margin-top: -1vw;
+ position: relative;
+ left: 55vw;
+ padding: 0.5vw;
+}
+
+.showing-products p span{
+  font-weight: 700;
+}
+.showing-products .product-sort p{
+    border: 1px solid gray;
+     height:4vh;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    cursor: pointer;
+   
+   margin-top: 0vw;
+   padding-top: 0.3vw;
+    font-size: 1.4vw;
+    text-align: center;
+    display: flex;
+    width: 10vw;
+    padding-left: 1.3vw;
+   
+}
+.showing-products .product-sort img{
+    width: 1.7vw;
+    height: 2.4vh;
+    margin-top: 0.6vw;
+
+}
+
+.col-md-3{
+    margin-left: 5px;
+    margin-right: -5px;
+}
+
+.all-products{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col-md-3 p{
+    margin-top: 10px;
+    letter-spacing: -1px;
+   font-weight: 600;
+    font-size: 14px;
+}
+.price-section{
+    display: flex;
+     margin-top: -15px;
+}
+.new-price{
+    margin-right: 15px;
+   
+  
+}
+.new-price p{
+    font-weight:bold;
+    font-size: 17px;
+}
+.old-price p{
+   color: gray;
+    font-size: 17px;
+}
+/*Mobile view*/
+@media(max-width:767px){
+    .kids-section{
+       width: 81vw;
+       margin-left: 0.7vw;
+    }
+   .kids-banner{
+       padding:2vw;
+   }
+    .kids-section h3{
+        margin-left: 0vw;
+        font-size: 6vw;
+        margin-top: -29vw;
+    }
+    .kids-section p{
+        margin-left: 0vw;
+    }
+    .kids-section .btn2{
+        margin-left: 0.1vw;
+        font-size: 1.9vw;
+        width: 16vw;
+    }
+    
+    .kids-section img{
+        width: 23vw;
+        height: 37vh;
+        margin-left: 50vw;
+      
+    }
+    .showing-products{
+        width: 81%;
+       position: relative;
+       left: 1vw;
+      
+    }
+    .showing-products p {
+         display: flex;
+        /* max-width:81%; */
+       font-size: 2vw;
+    }
+    
+    .showing-products .product-sort{
+        display: flex;
+        text-align: center;
+       left: 25vw;
+      
+        height: 7vh;
+        position: relative;
+    }
+    .showing-products .product-sort p{
+        height: 5vh;
+       width: 13vw;
+    margin-left: 11vw;
+        font-size: 2vw;
+
+    }
+    .showing-products .product-sort p img{
+      
+      margin-top: 0.8vw;
+    }
+   
+    .showing-products .product-sort img{
+        width: 2vw;
+    }
+    /* .row .col-md-3{
+        margin-left: 30vw;
+    } */
+    .col-md-3 img{
+        height: 30vh;
+        width: 32vw;
+    }
+}

@@ -1,0 +1,150 @@
+.navbar{
+    display: flex;
+   width: 100vw;
+    background-color: white;
+    height: 10vh;
+ 
+    
+}
+.nav-item {
+    display: flex;
+}
+.nav-item img{
+    width:7vw;
+    height: 8vh;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+.nav-item p{
+    font-size: 2vw;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 0.7vw;
+}
+.item-list ul{
+    display: flex;
+    margin-left:15vw;
+    margin-top: -15px;
+
+}
+.item-list ul li{
+   list-style: none;
+   margin-right: 30px;
+   font-weight: 500;
+    cursor: pointer;
+}
+.menus {
+    text-decoration: none;
+     color: gray;
+}
+
+.item-list ul li:hover{
+    border-bottom: 2px solid rgb(214, 9, 9);
+ 
+}
+
+.button .btn1{
+    border: 1.5px solid gray;
+    width: 9vw;
+    font-size: 1.40vw;
+    font-weight: 500;
+    position: relative;
+    left: -1vw;
+   
+}
+.button{
+    margin-top: -0.4vw;
+   position: relative;
+   left: -4vw;
+  
+}
+.button .btn1:hover{
+    transform:scale(1.1);
+    border: 1px solid gray;
+}
+.button span{
+  
+    font-size: 1vw;
+    text-align: center;
+    
+   background-color: rgb(214, 9, 9);
+}
+/*Mobile view*/
+@media(max-width:767px){
+    .navbar{
+        width: fit-content;
+    }
+    .button img{
+        width: 5vw;
+    }
+    .button span{
+        font-size: 1.25vw;
+    }
+   
+    .nav-item p{
+        margin-top: 1vw;
+        font-size: 2.4vw;
+    }
+    .button{
+        left: 31vw;
+        position: relative;
+        top: -1.1vw;
+         margin-left: 0.5vw;
+         margin-right: 1vw;
+    }
+    .navbar-toggler{
+        width: 5vw;
+        position: relative;
+        left: 52vw;
+        /* margin-left: 54.3vw; */
+        margin-top: 0.50vw;
+        height: 5vh;
+       /* flex-wrap:wrap ;
+        */
+     
+
+    }
+    
+    .navbar-toggler span{
+        width: 3vw;
+        height: 5vh;
+       right: 0.7vw;
+        position: relative;
+        /* left: -0.7vw; */
+        /* margin-left: -0.7vw; */
+        top: -0.70vw;
+        margin-left: 0.1vw;
+    }
+    .item-list ul{
+      
+        margin-left: 10vw;
+        margin-top: -2px;
+        width: 95px;
+      
+        
+    }
+    .button{
+        display: block;
+        position: relative;
+        top: -0.7vw;
+    }
+    .item-list ul li{
+        padding-left: 10px;
+    }
+    .item-list ul li:hover{
+     
+      border-bottom: 2px solid rgb(214, 9, 9);
+     
+    }
+    
+     .button img{
+         margin-left: 0vw;
+     }
+     .item-list ul li{
+         width: 15vw;
+         background-color: white;
+     }
+    
+}

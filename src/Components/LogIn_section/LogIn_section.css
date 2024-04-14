@@ -1,0 +1,109 @@
+.login-section{
+    background-color: rgb(248, 222, 236);
+    height: 800px;
+    width: 100vw;
+    
+}
+.login-section .signup-section{
+    background-color: white;
+    width: 40vw;
+    height: 42vw;
+   padding-top: 9vw;
+   margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: 4.5vw;
+    
+}
+.sign-up-login h3{
+    margin-left: -25vw;
+    margin-top: -4vw;
+    font-weight: 700;
+}
+.information-box-login input{
+    margin-top: 1vw;
+   width: 33vw;
+   height: 6vh;
+   margin-left: 4vw;
+   margin-bottom: 1.5vw;
+   border-radius: 5px;
+   border: 2px solid rgb(207, 207, 207);
+   padding-left: 0.8vw;
+}
+.information-box-login button{
+    background-color:rgb(241, 121, 88) ;
+    width: 33vw;
+    height: 6vh;
+    margin-left: 0.8vw;
+    color: white;
+}
+.information-box-login p{
+    margin-top: 0.9vw;
+   
+    position: relative;
+    left: -6vw;
+    font-weight: 400;
+}
+.information-box-login p span .click{
+    color:rgb(241, 121, 88) ;
+    cursor: pointer;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+.checkbox{
+    display: flex;
+    letter-spacing: -1px;
+    margin-left: 1.6vw;
+}
+.checkbox label{
+    margin-top: 14px;
+    margin-left: 5px;
+}
+.checkbox input{
+    margin-top: 1.5vw;
+}
+/*Mobile view*/
+@media(max-width:767px){
+    .login-section .signup-section{
+        margin-left: 94px;
+        width: 55vw;
+        height: 58vh;
+    }
+    .sign-up-login h3{
+        margin-left: -35vw;
+        font-size: 3.5vw;
+    }
+    .information-box-login input{
+        width: 42vw;
+        margin-left: 5.7vw;
+        margin-top: 2vw;
+        font-size:2.2vw ;
+    }
+    .information-box-login button{
+        font-size: 2.2vw;
+    }
+    .information-box-login button{
+        width: 42vw;
+        margin-left: -1.5vw;
+    }
+    .information-box-login p{
+        margin-top: 1vw;
+        position: relative;
+        left: -8.7vw;
+    }
+    .checkbox input{
+        margin-top: 2.4vw;
+    }
+    .checkbox label{
+        font-size: 2vw;
+    }
+    .checkbox{
+        margin-left: 3vw;
+    }
+    .information-box-login p{
+        font-size: 2vw;
+    }
+    .checkbox input{
+        width: 2vw;
+    }
+}
