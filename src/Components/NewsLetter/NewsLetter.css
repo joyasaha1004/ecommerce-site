@@ -33,7 +33,7 @@
     height: 7vh;
     border-radius: 25px;
     border: 1px solid gray;
-    font-size: 15px;
+    font-size:15px;
     margin-left: 10px;
  text-align: unset;
  margin-bottom: 2vw;
@@ -57,20 +57,104 @@
     
     .emailId{
        margin-left: 0vw;
-        width:83vw;
+        width:100vw;
     }
     .email-box{
         margin-top: 10vw;
     }
     .email-box input{
-        width: 290px;
-        height: 6vh;
+        width: 320px;
+        height: 5.5vw;
+        font-size: 2vw;
     }
     .email-box button{
         font-size: 2vw;
         width: 120px;
         margin-left: -1.2vw;
-        margin-top: -0.5vw;
-        height: 6vh;
+        margin-top: -0.7vw;
+        height: 5.5vw;
     }
+}
+@media(max-width:580px){
+    .email-box{
+        margin-top: 0.9vw;
+    }
+    .email-box button{
+        margin-left: -5vw;
+        margin-top: -0.2vw;
+    }
+}
+@media(max-width:650px){
+    .email-box{
+        margin-top: 12.2vw;
+    }
+}
+@media(max-width:527px){
+    .email-box button{
+        margin-top: -0.1vw;
+    }
+}
+@media(max-width:490px){
+    .emailId{
+        margin-top: -23vw;
+    }
+}
+@media(max-width:470px){
+    .email-box{
+        margin-top: 14vw;
+    }
+    .email-box input{
+        width: 60vw;
+        height: 6.8vw;
+    }
+    .email-box button{
+        height: 6.8vw;
+    }
+}
+@media(max-width:440px){
+    .email-box button{
+        margin-top: 0.1vw;
+    }
+}
+@media(max-width:410px){
+    .email-box{
+        margin-top: 15vw;
+    }
+}
+@media(max-width:381px){
+    .email-box button{
+        margin-top: 0.4vw;
+    }
+}
+@media(max-width:355px){
+    .email-box button{
+        margin-top: 0.7vw;
+    }
+    .email-box{
+        margin-top: 16vw;
+    }
+}
+@media(max-width:335px){
+    .email-box input{
+        width: 55vw;
+    }
+}
+@media(max-width:326px){
+    .email-box button{
+        margin-top: 0.9vw;
+    }
+    .email-heading{
+      position: relative;
+      top: 10vw;
+    }
+    .email-box{
+        margin-top: 13.2vw;
+    }
+}
+@media(max-width:301px){
+    .email-box button{
+        width: 24.8vw;
+        margin-top: 1.5vw;
+    }
+    .
 }

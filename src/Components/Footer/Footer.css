@@ -75,13 +75,13 @@
     }
 
     .footer{
-        margin-left: -20.2vw;
+        margin-left: -9vw;
         width: 100vw;
     }
     .footer-copyright hr{
         position: relative;
-        left: 9.5vw;
-        margin-left: 18vw;
+        left: 15.2vw;
+        margin-left:2.5vw;
     }
     .footer-copyright{
        position: relative;
@@ -89,7 +89,7 @@
     }
     .footer-copyright p{
        position: relative;
-       left: 163vw;
+       left: 15vw;
     font-size: 1.7vw;  
   }
     .footer-link li{
@@ -103,6 +103,114 @@
         margin-left: 5vw;
     }
     .footer-logo{
+        margin-left: 8.8vw;
+    }
+}
+@media(max-width:734px){
+    .footer-heading p{
+      position: relative;
+      top: -0vw;
+    }
+    .footer-link{
+        margin-left: 4vw;
+
+    }
+    .footer-logo{
+        margin-left: 8.2vw;
+    }
+    .footer-copyright p{
+        position: relative;
+        left: 16vw;
+    }
+}
+@media(max-width:699px){
+    .footer-heading p{
+      position: relative;
+      top: 0vw;
+    }
+    .footer-link{
+        margin-top: -1.4vw;
+        margin-left: 4vw;
+    }
+    .footer-logo{
+        margin-left: 8.2vw;
+    }
+}
+@media(max-width:599px){
+    .footer-heading p{
+        position: relative;
+        top: 0vw;
+        font-size: 2.7vw;
+    }
+    .footer-logo{
+        margin-left: 7vw;
+    }
+}
+@media(nax-width:555px){
+    .footer-link{
+        margin-top: -1.8vw;
+    }
+    .footer-logo{
         margin-left: 6vw;
+    }
+}
+@media(max-width:515px){
+    .footer-heading p{
+       
+       font-size: 2.9vw;
+    }
+    .footer-link{
+        margin-top: -2.4vw;
+    }
+    .footer-logo{
+        margin-left: 6vw;
+    }
+}
+@media(max-width:465px){
+    .footer-heading p{
+        font-size: 3.2vw;
+        position: relative;
+        top: 0.5vw;
+    }
+    
+}
+@media(max-width:422px){
+    .footer-heading{
+        font-size: 3.4vw;
+      
+    }
+    .footer-copyright p{
+      margin-left: 0.5vw;
+    }
+    .footer-link{
+        margin-top: -4vw;
+    }
+    .footer-logo{
+        margin-left: 4.8vw;
+    }
+    .footer-logo ul li img{
+        width: 4vw;
+        height: 4.5vw;
+    }
+}
+@media(max-width:400px){
+    .footer-link{
+        margin-top: -5vw;
+        margin-left: 3vw;
+    }
+    
+    .footer-heading p{
+        position: relative;
+        top: 1vw;
+    }
+    .footer-copyright p{
+        margin-top: -1vw;
+        margin-left: 0.4vw;
+    }
+    .footer-logo{
+        margin-left: 3vw;
+    }
+    .footer-copyright hr{
+        left: 16vw;
     }
 }

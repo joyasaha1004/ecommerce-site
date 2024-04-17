@@ -58,7 +58,7 @@ const Product = () => {
                     </div>
 
                       <div className="col-md-3">
-                        <img src={women7} alt="" style={{width:"200px", height:"300px"}}></img>
+                        <img src={women7} alt=""style={{width:"200px", height:"300px"}} ></img>
                         <p>Striped Flutter Sleeve Overloap Coffar Peplum Hem Blouse</p>
                         <div className="price-section">
                             <div className="new-price">

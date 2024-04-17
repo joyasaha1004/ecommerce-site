@@ -34,10 +34,130 @@
 }
 @media(max-width:767px){
     .new-collection-heading{
-        margin-left: 30vw;
+        margin-left: 32.5vw;
     }
   
     .col-md-3 p{
         width: 32vw;
+    }
+}
+@media (max-width:530px){
+    .new-collection-heading h3{
+        font-size: 4.5vw;
+        margin-left: -2.7vw;
+    }
+}
+@media(max-width:490px){
+    .new-collection{
+       position: relative;
+       top: -35vw;
+    }
+    .new-collection-heading hr{
+        margin-top: -0.5vw;
+    }
+    .collection-item .row{
+        margin-left: 22vw;
+        margin-top: 10vw;
+    }
+    .new-collection-heading h3{
+        position: relative;
+        left: 7vw;
+    }
+    .new-collection-heading hr{
+        margin-left: 15.5vw;
+    }
+    .collection-item .row{
+        margin-left: 19.5vw;
+    }
+    .new-collection-heading{
+        margin-left: 25.5vw;
+    }
+}
+@media(max-width:460px){
+
+  .collection-item .row{
+      margin-left: 17vw;
+  }
+ 
+}
+@media(max-width:430px){
+
+   .collection-item .row{
+      position: relative;
+      left: -0.5vw;
+   }
+   .new-collection-heading{
+       margin-left: 27.5vw;
+   }
+}
+@media(max-width:415px){
+   .collection-item .row{
+    margin-left:18vw;
+   }
+}
+@media(max-width:410px){
+    .popular-heading h3{
+        font-size: 4.55vw;
+    }
+}
+@media(max-width:399px){
+    .collection-item h3{
+        font-size: 4.55vw;
+    }
+    .collection-item .row{
+      
+        position: relative;
+        left: -2.9vw;
+    }
+}
+@media(max-width:360px){
+    .collection-item .row{
+   position: relative;
+   left: -5vw;
+    }
+    .new-collection-heading h3{
+        position: relative;
+      left: 7vw;
+    }
+    .new-collection-heading hr{
+       position: relative;
+       left: 0.5vw;
+    }
+}
+/* @media(max-width:340px){
+    .new-collection-heading h3{
+        font-size: 5vw;
+        margin-left: -15vw;
+    }
+} */
+@media(max-width:335px){
+    .collection-item .row{
+   position: relative;
+   left: -0.5vw;
+    }
+    .new-collection-heading h3{
+        font-size: 5vw;
+    }
+}@media(max-width:320px){
+    .new-collection-heading h3{
+        font-size: 1.70vw;
+    }
+    .collection-item .row{
+      position: relative;
+      left: -0.3vw;
+    }
+}
+@media(max-width:445px){
+    .collection-item .row {
+        margin-left: 16.5vw;
+    }
+}
+@media(max-width:380px){
+    .new-collection-heading h3{
+        font-size:4.60vw ;
+    }
+    .collection-item .row{
+        position: relative;
+        left: -10vw;
     }
 }

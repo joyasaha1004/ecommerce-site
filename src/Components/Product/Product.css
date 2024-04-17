@@ -25,6 +25,7 @@
     margin-left: 1.5vw;
     margin-right: 1.5vw;
 }
+
 .col-md-3 p{
     margin-top: 0.7vw;
     letter-spacing: -1px;
@@ -66,10 +67,11 @@
    
     }
     .popular-heading h3{
-        margin-left: -18vw;
+        margin-left: -12vw;
+
     }
     .popular-heading hr{
-        margin-left: -8vw;
+        margin-left: -2.3vw;
     }
     .col-md-3 p{
         width: 30vw;
@@ -82,4 +84,91 @@
      
     }
     
+}
+@media (max-width:530px){
+    .popular-heading h3{
+        font-size: 4.5vw;
+        margin-left: -14.5vw;
+    }
+}
+@media(max-width:490px){
+    .popular-heading hr{
+        margin-top: -0.5vw;
+    }
+    .popular-item .row{
+        margin-left: 22vw;
+        margin-top: 10vw;
+    }
+}
+@media(max-width:460px){
+  .popular-item .row{
+      margin-left: 21vw;
+  }
+ 
+}
+@media(max-width:430px){
+   .popular-item .row{
+       margin-left: 20vw;
+   }
+}
+@media(max-width:415px){
+   .popular-item .row{
+    margin-left:18vw;
+   }
+}
+@media(max-width:410px){
+    .popular-heading h3{
+        font-size: 4.55vw;
+    }
+}
+@media(max-width:399px){
+    .popular-heading h3{
+        font-size: 4.55vw;
+    }
+    .popular-item .row{
+        margin-left: 17vw;
+    }
+}
+@media(max-width:360px){
+    .popular-item .row{
+        margin-left: 15vw;
+    }
+    .popular-heading h3{
+        font-size: 5vw;
+        margin-left: -15.90vw;
+    }
+    .popular-heading hr{
+        margin-left: -1vw;
+    }
+}
+@media(max-width:340px){
+    .popular-heading h3{
+        font-size: 5vw;
+        margin-left: -15vw;
+    }
+}
+@media(max-width:335px){
+    .popular-item .row{
+   position: relative;
+   left: -0.2vw;
+    }
+    .popular-heading h3{
+        font-size: 5vw;
+    }
+}@media(max-width:320px){
+    .popular-item .row{
+       position: relative;
+       left: -2vw;
+    }
+    
+}
+@media(max-width:445px){
+    .popular-item .row {
+        margin-left: 14vw;
+    }
+}
+@media(max-width:380px){
+    .popular-heading h3{
+        font-size:4.60vw ;
+    }
 }
